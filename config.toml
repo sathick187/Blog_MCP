@@ -1,0 +1,30 @@
+[project]
+enable_telemetry = false
+
+[features]
+prompt_playground = false
+multi_modal = false
+
+[UI]
+name = "Dev.to Assistant 🌸"
+description = "Your AI companion for exploring Dev.to"
+default_theme = "light"
+layout = "default"
+default_sidebar_state = "hidden"
+confirm_new_chat = false
+cot = "hidden"
+custom_css = "theme.css"
+
+[UI.theme]
+  [UI.theme.light]
+    background = "#fdf4ff"
+    paper      = "#ffffff"
+
+    [UI.theme.light.primary]
+      main  = "#b06fc4"
+      light = "#d4a8e0"
+      dark  = "#8a4fa0"
+
+    [UI.theme.light.text]
+      primary   = "#3b1f52"
+      secondary = "#8b6fa8"
