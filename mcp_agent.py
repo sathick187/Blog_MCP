@@ -11,7 +11,7 @@ set_tracing_disabled(True)
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-UV_PATH = r"C:\Users\dhars\.local\bin\uv.exe"
+UV_PATH = r"C:\Users\Admin\.local\bin\uv.exe"
 CURRENT_DIRECTORY = str(Path(__file__).parent.absolute())
 
 client = AsyncOpenAI(
